@@ -1,0 +1,162 @@
+/* Golbal View aka Desktop View */
+
+body {
+    font-family: 'Asap', sans-serif;
+    background-color:  #EBEBEB;
+}
+
+h1 {
+    color:gray;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.container {
+    
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-top: 130px;
+}
+
+.header-container {
+    background-color:lightgray;
+    min-height: 100px;
+    /* margin-bottom: 40px; */
+    color: white;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    max-width:1024px;
+    /* background-color:lightskyblue; */
+    min-height:100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbutton {
+    display:inline;
+    padding: 10px 30px;
+    border: 1px solid;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.col {
+    width: 30%;
+    margin-bottom: 30px;
+    background-color: aquamarine;
+}
+
+.col p {
+    color:white;
+    font-size: 0.875rem;
+    padding: 20px 30px;
+    line-height:1.25rem;
+}
+
+.hide-desktop-only {
+    display: none;
+}
+
+
+.col img {
+    width: 100%;
+    height: auto;
+}
+
+.col p::first-line {
+    font-weight: 700;
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+
+h1 {
+    color: violet;
+}
+
+.col {
+        width: 45%;
+}
+
+.hide-desktop-only {
+    display: block;
+}
+header {
+    display: block;
+    text-align: center;
+}
+
+.header-container {
+    position: relative;
+}
+
+.container {
+    padding-top: 40px;
+}
+
+nav a {
+    display: block;
+}
+
+.logo {
+    padding: 40px 0;
+}
+
+.navbutton {
+    margin-left: 0;
+}
+}
+
+
+
+/* Mobile View */
+@media (max-width: 400px) {
+
+    h1 {
+        color: rgb(92, 49, 92);
+    }
+    .col {
+        width: 100%;    
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    .header-container {
+        position: relative;
+    }
+
+    .container {
+        padding-top: 40px;
+    }
+
+    nav a {
+        display: block;
+    }
+
+    .logo {
+        padding: 40px 0;
+    }
+
+    .navbutton {
+        margin-left: 0;
+    }
+
+    }

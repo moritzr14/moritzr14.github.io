@@ -10,6 +10,11 @@
 </head>
 <body>
 
+ <script>
+   if ("serviceWorker" in navigator) {
+     navigator.serviceWorker.register("./service-worker.js")
+   }
+  </script>
 <link
   rel="stylesheet"
   href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"

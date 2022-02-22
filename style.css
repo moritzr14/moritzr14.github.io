@@ -277,7 +277,7 @@ img {
   font-size: 5rem;
 }
 
-@media (max-width: 28.75em) {
+@media (max-width: 22.5em) {
   .contact-section-header > h2 {
     font-size: 4rem;
   }
@@ -325,7 +325,7 @@ footer i {
   vertical-align: middle;
 }
 
-@media (max-width: 28.75em) {
+@media (max-width: 22.5em) {
   footer {
     flex-direction: column;
     text-align: center;

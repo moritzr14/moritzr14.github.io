@@ -1,0 +1,9 @@
+{
+    "name": "Moritz",
+    "short_name": "Moritz",
+    "start_url": "/?home=true",
+    "icons": [],
+    "background_color": "#FFFFFF",
+    "display": "fullscreen",
+    "orientation": "portrait" 
+}

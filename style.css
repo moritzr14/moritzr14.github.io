@@ -47,6 +47,12 @@ html {
   }
 }
 
+/*360px / 16px = 22,5em */
+@media (max-width: 22.5em) {
+  html {
+    font-size: 53%;
+  }
+}
 /* Base styles */
 
 body {

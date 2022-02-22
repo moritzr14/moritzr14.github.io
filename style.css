@@ -168,9 +168,9 @@ img {
   border-bottom: 0.2rem solid var(--main-white);
 }
 
-@media (max-width: 28.75em) {
+@media (max-width: 22.5em) {
   .projects-section-header {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 

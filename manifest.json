@@ -2,7 +2,20 @@
     "name": "Moritz",
     "short_name": "Moritz",
     "start_url": "moritzr14.github.io",
-    "icons": [],
+    "icons": [
+       {
+        "src": "/output-onlinepngtools (1).png",
+        "sizes": "192x192",
+        "type": "image/png",
+        "purpose": "maskable any"
+       },
+        {
+        "src": "/output-onlinepngtools (2).png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "maskable any"
+       },
+    ],
     "background_color": "#FFFFFF",
     "display": "fullscreen",
     "orientation": "portrait" 
